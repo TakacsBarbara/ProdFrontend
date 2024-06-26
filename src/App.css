@@ -1,0 +1,402 @@
+/* Files.jsx */
+
+.video-container {
+  margin-top: 50px;
+}
+
+.bde-image-item:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 972px) {
+  
+  .video-container {
+    margin-top: 50px;
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+  }
+  
+  #youtube-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.bde-image-list-item {
+  margin-top: 1em;
+}
+
+@media (max-width: 679px) {
+
+  .bde-image-list-item {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 680px) and (max-width: 1024px) {
+
+  .bde-image-list-item {
+    width: 30vw;
+  }
+}
+
+@media (min-width: 1025px) {
+
+  .bde-image-list-item {
+    width: 15vw;
+  }
+}
+
+/* DashboardCard.jsx */
+
+@media (max-width: 500px) {
+
+  .dashboard-card-icon {
+    font-size: 2rem !important;
+    margin-right: 10px !important;
+  }
+
+  .dashboard-card-text {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1199px) {
+
+  .dashboard-card-icon {
+    font-size: 4rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .dashboard-card-icon {
+    font-size: 6rem !important;
+  }
+
+}
+
+.dashboard-card-text {
+  font-size: 1.4rem;
+}
+
+/* HeadData.jsx */
+
+@media (max-width: 679px) {
+
+  .head-data-quantities-container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .bde-toolbar-button-container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .bde-add-new-user {
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 809px) and (max-width: 875px) {
+  .head-data-container {
+    height: 260px;
+  }
+}
+
+@media (min-width: 876px) and (max-width: 1305px) {
+  .head-data-container {
+    height: 220px;
+  }
+}
+
+@media (min-width: 1306px) {
+  .head-data-container {
+    height: 200px;
+  }
+}
+
+/* AddWO.jsx */
+
+@media (max-width: 1000px) {
+  .add-wo-component {
+    width: 50vw;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1500px) {
+  .add-wo-component {
+    width: 35vw;
+  }
+}
+
+@media (min-width: 1501px) {
+  .add-wo-component {
+    width: 25vw;
+  }
+}
+
+
+@media (max-width: 580px) {
+  .add-wo-title {
+    font-size: 1.5rem !important;
+    padding: 0 10px
+  }
+}
+
+@media (min-width: 581px) and (max-width: 900px) {
+  .add-wo-title {
+    font-size: 2.5rem !important;
+  }
+}
+
+/* StockInfo.jsx */
+
+@media (min-width: 901px) {
+  .inner-description {
+    margin-left: 20px !important;
+    width: 70vw;
+  }
+
+  .search-input {
+    margin-right: 20px !important;
+    margin-top: 20px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .inner-desc-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .inner-description {
+    margin-top: 20px !important;
+  }
+
+  .search-input {
+    margin-right: 20px !important;
+    margin-top: 20px !important;
+  }
+}
+
+/* Login.jsx */
+
+@media (max-width: 1000px) {
+
+  .login-title {
+    font-size: 68px !important;
+  }
+
+  .login-avatar {
+    width: 30vw !important;
+    height: 30vw !important;
+  }
+
+}
+
+.login-container {
+  height: 500px;
+}
+
+@media (max-width: 550px) {
+
+  .login-input {
+    width: 80% !important;
+  }
+}
+
+@media (min-width: 551px) {
+
+  .login-container {
+    height: 750px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 1000px) {
+
+  .login-input {
+    width: 50% !important;
+  }
+}
+
+/* BDE.jsx */
+
+.bde-add-new-user {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  flex-direction: row;
+}
+
+.add-person-button {
+  width: 400px;
+  margin-top: 1rem;
+}
+
+@media (min-width: 680px) and (max-width: 1400px) {
+
+  .bde-add-new-user {
+    display: flex !important; 
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    flex-direction: row;
+  }
+
+  .add-person-input {
+    width: 65% !important;
+  }
+
+  .add-person-button {
+    width: 30%;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 679px) {
+
+  .bde-add-new-user {
+    display: flex !important; 
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    flex-direction: row;
+  }
+
+  .add-person-input {
+    width: 65% !important;
+  }
+
+  .add-person-button {
+    width: 15%;
+    margin-top: 0;
+  }
+
+  .person-add-icon {
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 1001px) {
+
+  .bde-warning-add-user-again {
+    width: 30%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+
+  .bde-warning-add-user-again {
+    width: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .bde-warning-add-user-again {
+    width: 70%;
+  }
+}
+
+/* MaterialBooking.jsx */
+
+@media (max-width: 600px) {
+
+  .material-booking-main-container {
+    padding: 0 0 30px 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .material-booking-main-container h3 {
+    margin-top: 20px;
+    font-size: 35px;
+  }
+
+  .material-booking-block-container {
+    width: 100%;
+  }
+
+  .account-count-textfield {
+    width: 100%;
+  }
+
+  .qr-scanner-container {
+    width: 300px;
+    height: 300px;
+  }
+  
+}
+
+@media (min-width: 601px) and (max-width: 1179px) {
+
+  .user-datas-container, .article-datas-container, .account-container {
+    width: 80% !important;
+  }
+
+  .account-count-textfield {
+    width: 77% !important;
+  }
+
+  .qr-scanner-container {
+    width: 400px;
+    height: 400px;
+  }
+  
+}
+
+@media (min-width: 1180px) {
+
+  .user-datas-container {
+    width: 30% !important;
+  }
+
+  .article-datas-container {
+    width: 70% !important;
+  }
+
+  .account-container {
+    width: 100%;
+  }
+
+  .account-count-textfield {
+    width: 250px;
+  }
+
+  .qr-scanner-container {
+    width: 450px;
+    height: 450px;
+  }
+  
+}
+
+@media (min-width: 1500px) {
+
+  .material-booking-article-description {
+    width: 750px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1180px) and (max-width: 1499px) {
+
+  .material-booking-article-description {
+    width: 600px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1179px) {
+
+  .material-booking-article-description {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

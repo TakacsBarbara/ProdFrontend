@@ -1,0 +1,89 @@
+/* CuttingInfo + BOM table striped */
+
+.cutting-table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.bom-table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 1480px) {
+  
+  #start-date-label, #end-date-label {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1201px) {
+
+  .dateInputField input[type="date"] {
+    width: 200px;
+    text-align: right;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1200px) {
+
+  .dateInputField {
+    margin-bottom: 20px !important;
+    margin-left: -20px !important;
+  }
+
+  .dateInputField input[type="date"] {
+    width: 50vw;
+    text-align: right;
+  }
+}
+
+@media (max-width: 760px) {
+
+  .dateInputField {
+    margin-bottom: 20px !important;
+    margin-left: -20px !important;
+  }
+
+  .dateInputField input[type="date"] {
+    width: 20rem;
+    text-align: right;
+  }
+}
+
+@media (max-width: 535px) {
+
+  .searchInputField {
+    margin-bottom: 20px !important;
+    width: 70vw !important;
+  }
+}
+
+@media (min-width: 536px) {
+
+  .searchInputField {
+    margin-bottom: 20px !important;
+    margin-right: 10px !important;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .operationButton {
+    width: 100%;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+
+  .operationButton {
+    width: 70%
+  }
+}
+
+@media (min-width: 1201px) {
+
+  .operationButton {
+    width: 50%;
+  }
+}
